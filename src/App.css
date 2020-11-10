@@ -1,10 +1,24 @@
 body{
+
+  background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1333,w_1981,x_9,y_0/v1557336494/shape/mentalfloss/582807-steevy84-istock-456906257.jpg?itok=eUy4nt10");
+
   margin: 1%;
   text-align:center;
   font-family: 'Anton', sans-serif;
   height: 90vh;
 }
 h1{
+  color: white;
   text-decoration: underline;
   font-size: 80px;
+
 }
+p{
+  color: white;
+  font-size: 80px;
+}
+button:hover{
+    background-color: rgb(95, 133, 230);
+  }
+
+

@@ -14,7 +14,7 @@ class App extends React.Component {
   getAnswer = () => {
     // destructures answerArray out of state
     const { answerArray } = this.state
-    var randomnumber = Math.floor(Math.random() * (8 - 0 + 1)); 
+    var randomnumber = Math.floor(Math.random() * (8 - 0 + 1))
     //   var random = 0
     //   var random2 = random.Math.random(7)
     // // write your code here!
