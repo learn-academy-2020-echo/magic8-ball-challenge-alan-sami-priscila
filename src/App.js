@@ -6,7 +6,7 @@ class App extends React.Component {
     super(props)
     this.state = {
       // Add magic 8 ball outcomes to the array
-      answerArray: ["Hell yea", "Probably not","Hell nah","Maybe","Ask Again","No comment","Try again","Are you kidding me"],
+      answerArray: ["Nah you kidding yourself fam", "Probably not","Hell nah","LMAO good one","My sources say no","SIKE","You outta be ashamed of yourself","Are you kidding me"],
       question: ""
     }
   }
@@ -38,7 +38,7 @@ class App extends React.Component {
   render(){
     return (
       <div>
-        <h1>Magic 8 Ball</h1>
+        <h1>Magic -8 Ball</h1>
         <input
           id="inputBox"
           type='text'
@@ -46,7 +46,7 @@ class App extends React.Component {
         />
         <br />
         <button onClick={ this.handleSubmit }>
-          Ask the Magic 8 Ball a Question
+          Ask the Magic -8 Ball a Question
         </button>
         <p> { this.state.answer } </p>
       </div>

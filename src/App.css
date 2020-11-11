@@ -17,8 +17,18 @@ p{
   color: white;
   font-size: 80px;
 }
+
+button{
+  font-size: 40px;
+  margin-top: 20px;
+}
+
 button:hover{
     background-color: rgb(95, 133, 230);
   }
 
+
+input {
+  font-size: 40px;
+}
 
